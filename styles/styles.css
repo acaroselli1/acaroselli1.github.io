@@ -1,3 +1,39 @@
-h1 {
+body {
+  background-image:url("http://3.bp.blogspot.com/-rmmPYramegE/UYHCDcOnVEI/AAAAAAAAAsA/fMvzIlIXv3I/s1600/boise-skyline-a.jpg");
+  height:100%;
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-attachment:fixed;
+  opacity:2.0;
+}
+
+.name{
+  background-color:rgba(0, 0, 0, .75);
+  margin-left:10%;
+  margin-top:10%;
+  font-family: 'Kaushan Script', cursive;
+  font-size:300%;
+  color:black;
+  background-color:white;
+  position:fixed;
+  border-radius:25%;
+}
+.developer{
+  background-color:rgba(0, 0, 0, .75);
+  margin-right:10%;
+  margin-top:30%;
+  font-family: 'Kaushan Script', cursive;
+  font-size:300%;
+  color:black;
+  background-color:white;
+  position:fixed;
+  border-radius:25%;
+}
+.name:hover {
+  color:darkblue;
+}
+
+.developer:hover{
   color:red;
 }
