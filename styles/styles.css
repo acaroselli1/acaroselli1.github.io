@@ -1,3 +1,6 @@
+
+ *{outline:1px solid red;}
+
 body {
   background-image:url("http://3.bp.blogspot.com/-rmmPYramegE/UYHCDcOnVEI/AAAAAAAAAsA/fMvzIlIXv3I/s1600/boise-skyline-a.jpg");
   height:100%;
@@ -8,32 +11,54 @@ body {
   opacity:2.0;
 }
 
-.name{
-  background-color:rgba(0, 0, 0, .75);
-  margin-left:10%;
-  margin-top:10%;
+.labels{
+  background-color:rgba(0,0,0,.75);
   font-family: 'Kaushan Script', cursive;
-  font-size:300%;
-  color:black;
-  background-color:white;
-  position:fixed;
-  border-radius:25%;
+  font-size:4rem;
+  color:white;
+  border-radius:15px;
+  
 }
-.developer{
-  background-color:rgba(0, 0, 0, .75);
-  margin-right:10%;
-  margin-top:30%;
-  font-family: 'Kaushan Script', cursive;
-  font-size:300%;
-  color:black;
-  background-color:white;
-  position:fixed;
-  border-radius:25%;
+
+.vertical-line-align{
+  display:flex;
+  justify-content:center;
 }
-.name:hover {
+
+.vertical-align{
+  display:flex;
+  align-items:flex-end;
+}
+
+.vertical-line{
+  display:flex;
+  justify-content:center;
+  background-color:rgba(0,0,0,.75);
+  width:4px;
+  height:150px;
+
+}
+
+
+
+.horizontalline{
+  background-color:black;
+  height:4px;
+  width:100%;
+  
+  
+} 
+
+
+
+#name:hover {
   color:darkblue;
 }
 
-.developer:hover{
+#job-title:hover{
   color:red;
+}
+
+.outside{
+  margin-top:5%;
 }
