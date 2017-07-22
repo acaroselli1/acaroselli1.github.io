@@ -1,35 +1,31 @@
-window.onload = init;
+/*window.onload = init;
 
 function init(){
-
-    var name = document.getElementById("name");
-    name.onmouseover = funMotion;
+    var label= document.getElementById("alex");
+    label.onclick = funMotion;
 }
 
 function funMotion(){
-    var name = document.getElementById("name");
-    name += "animated shake";
+     var label= document.getElementById("alex");
+     label.setAttribute("class","animated shake");
 }
-/*
-$(document).ready(function(){
+*/
 
+jQuery(document).ready(function($){
+	
 
-	/*$('body').awesomeCursor('hand-grab-o');*/
-
-/*
 
 var animationEnd = "webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend";
 
-var animation = "animated shake";
+var animation = "animated zoomOutUp";
 
-	$("#name").on("mouseover", function(){
-
-		$("#name").addClass(animation).one(animationEnd, function(){
+	$(".special-effects").on("mouseover", function(){
+     
+		$(".special-effects").addClass(animation).one(animationEnd, function(){
                    
-                     $("#name").removeClass(animation);
+                     $(".special-effects").removeClass(animation);
 
              });
     });
             
 });
-*/

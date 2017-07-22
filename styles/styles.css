@@ -1,5 +1,5 @@
 
- *{outline:1px solid red;}
+/**{outline:1px solid red;}*/
 
 body {
   background-image:url("http://3.bp.blogspot.com/-rmmPYramegE/UYHCDcOnVEI/AAAAAAAAAsA/fMvzIlIXv3I/s1600/boise-skyline-a.jpg");
@@ -11,12 +11,16 @@ body {
   opacity:2.0;
 }
 
+.outside{
+padding-top:2%;
+}
 .labels{
   background-color:rgba(0,0,0,.75);
   font-family: 'Kaushan Script', cursive;
   font-size:4rem;
   color:white;
   border-radius:15px;
+  
   
 }
 
@@ -30,6 +34,10 @@ body {
   align-items:flex-end;
 }
 
+.horizontal-align{
+  display:flex;
+  justify-content:flex-end;
+}
 .vertical-line{
   display:flex;
   justify-content:center;
@@ -38,24 +46,35 @@ body {
   height:150px;
 
 }
+.vertical-line-long{
+  display:flex;
+  justify-content:center;
+  background-color:rgba(0,0,0,.75);
+  width:4px;
+  height:450px;
 
-
-
-.horizontalline{
-  background-color:black;
-  height:4px;
-  width:100%;
-  
-  
-} 
-
-
-
-#name:hover {
-  color:darkblue;
 }
 
-#job-title:hover{
+.horizontalline{
+  background-color:rgba(0,0,0,.75);
+  height:4px;
+  width:100%;
+ 
+
+  
+} 
+p{
+  font-size:100px;
+}
+#name{
+  color:white;
+}
+
+#alex:hover, #special-skills:hover, #story:hover {
+  color:#15a2eb;
+}
+
+#developer:hover, #knowledge:hover{
   color:red;
 }
 
